@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<!-- Class Yapısı -->
+
+<html lang="tr">
+    <head>
+        <title>Document</title>
+
+        <style>
+            .denemeClass {
+                background-color: aquamarine;
+            }
+            .baslik {
+                text-align: center;
+            }
+            p {
+                font-weight: bold;
+                font-style: italic;
+            }
+            .baskaBirClass {
+                font-style: normal;
+            }
+        </style>
+
+    </head>
+    
+    <body>
+        <div class="denemeClass">
+            <h2 class="baslik">Bu bir başlıktır</h2>
+            <p>Deneme 1. satırı</p>
+            <p>Deneme 2. satırı</p>
+            <p class="denemeClass baslik baskaBirClass">Deneme 3. satiri</p>
+            <!-- Yukarıdaki gibi birden fazla class alınabilir !!! -->
+            <!-- İlk yazılan class'ta italik olarak tanımlanmasına rağmen, 2. class'da 
+                 normal olarak tanımlandığı için yazı normal yazı formatına döndürüldü -->
+        </div>
+        
+    </body>
+</html>
